@@ -1,3 +1,37 @@
 body{
     background-color: rgb(66, 61, 139);
+    color: floralwhite;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+h1{
+    font-weight: normal;
+}
+
+p{
+    color: bisque;
+}
+
+div.details {
+    color: rgb(255, 203, 91);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+div.title {
+    color: rgb(255, 205, 222);
+    font-size: 28px; 
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+div.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
