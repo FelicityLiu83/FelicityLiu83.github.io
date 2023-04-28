@@ -67,3 +67,48 @@ div.text4{
     margin-right: 30px;
     text-align: right;
 }
+
+div.subheading2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-left: 30px;
+    text-align: left;
+}
+div.text5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+div.text6{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+div.subheading3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-right: 30px;
+    text-align: right;
+}
+    
+div.text7{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: right;
+    }
+    
+div.text8{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        margin-top: 20px;
+        text-align: right;
+}
