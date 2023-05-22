@@ -2,6 +2,15 @@ body{
     margin: 0px;
 }
 
+img {
+    width: 100%;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
 
 div{
     box-sizing: border-box;
@@ -13,7 +22,7 @@ div.row{
 
 }
 
-div.message {
+div.marquee {
     width: 100%;
     background-color: white;
     position: fixed;
@@ -46,13 +55,21 @@ div.left:hover{
     transition:0.2s;
 }
 
+div.subpage1:hover{
+    color: blue
+}
+
+div.subpage2:hover{
+    color: blue
+}
+
 div.right{
     font-size: 100px;
     background-color: white;
     height: 100vh;
     overflow: scroll;
     padding: 20px;
-    padding-top: 130px;
+    padding-top: 100px;
     box-shadow: -10px -10px 10px grey;
 
     position: fixed;
@@ -70,19 +87,48 @@ div.content{
     flex-wrap: wrap;
 }
 
-div.hometext{
+div.content{
     font-size: 30px;
     color: rgb(24, 24, 111);
 }
 
+div.hometext1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+div.hometext2{
+    margin-top: 110px;
+    margin-bottom: 30px;
+    margin-right: 300px;
+}
+
+
+div.hometext3{
+    margin-top: 130px;
+    margin-bottom: 230px;
+}
+
 div.img{
-    background-color: blue;
-    height: 200px;
     width: 200px;
 
     position: sticky;
     top: 0px;
-    right: 0px;
+    right: 1px;
+}
+
+
+div.img2{
+    width: 200px;
+    position:sticky;
+    bottom: 0px;
+    left: 5px;
+}
+
+div.img3{
+    background-color: blue;
+    height: 225px;
+    width: 400;
 }
 
 div.width100{
