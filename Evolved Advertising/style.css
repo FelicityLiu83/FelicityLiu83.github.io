@@ -7,12 +7,18 @@ img {
 }
 
 a {
-    color: black;
+    color: rgb(245, 245, 245);
     text-decoration: none;
 }
 
 a:hover{
-    color: blue;
+    z-index: 30;
+    width: 60%;
+    transition:0.2s;
+}
+
+a:hover{
+    color:  rgb(54, 84, 184)
 }
 
 div{
@@ -39,7 +45,7 @@ div.marquee {
 
 div.left{
     font-size:64px;
-    background-color: white;
+    background-color: rgb(31, 31, 31);
     height: 100vh;
     overflow: scroll;
     padding: 20px;
@@ -53,20 +59,6 @@ div.left{
     transition: 0.2s;
 }
 
-div.left:hover{
-    z-index: 30;
-    width: 60%;
-    transition:0.2s;
-}
-
-div.subpage1:hover{
-    color: blue
-}
-
-div.subpage2:hover{
-    color: blue
-}
-
 div.right{
     font-size: 100px;
     background-color: white;
@@ -74,7 +66,7 @@ div.right{
     overflow: scroll;
     padding: 20px;
     padding-top: 100px;
-    box-shadow: -10px -10px 10px grey;
+    box-shadow: -20px -20px 20px rgb(214, 214, 214);
 
     position: fixed;
     top: 0;
@@ -126,11 +118,13 @@ div.hometext3{
 
 
 div.img{
-    width: 200px;
+    width: auto;
+    height: 480px;
 
     position: sticky;
     top: 0px;
     right: 1px;
+    box-shadow:5px 5px 10px 3px gray;
 }
 
 
@@ -192,6 +186,10 @@ div.width50{
 
 div.width40{
     width: 40%;
+}
+
+div.width35{
+    width: 35%;
 }
 
 div.width30{
