@@ -11,6 +11,9 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color: blue;
+}
 
 div{
     box-sizing: border-box;
