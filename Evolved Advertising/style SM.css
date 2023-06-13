@@ -45,7 +45,7 @@ div.marquee {
 }
 
 div.left{
-    font-size:64px;
+    font-size:60px;
     background-color: rgb(255, 244, 237);
     height: 100vh;
     overflow: scroll;
@@ -64,6 +64,10 @@ div.left:hover{
     z-index: 30;
     width: 60%;
     transition:0.2s;
+}
+
+div.leftimg{
+    height: 100vh;
 }
 
 div.right{
@@ -140,11 +144,12 @@ div.hometext5{
 
 div.img{
     width: auto;
-    height: 350px;
     box-shadow:5px 5px 10px 3px gray;
     margin-left: 30%;
     margin-bottom: 30px;
+    line-height: 0%;
 }
+
 
 div.box3{
     width:30%
@@ -165,6 +170,35 @@ div.img3{
     width: 60%;
     height: auto;
     margin-left: 25%;
+}
+
+div.img5{
+    height: auto;
+    margin-left: 10%;
+}
+
+div.img8{
+    position:relative;
+    left: -100px;
+    top: 50px;
+    z-index: 0px;
+    height: auto;
+}
+
+div.img6{
+    position:relative;
+    left: -70px;
+    top: 140px;
+    z-index: 20px;
+    height: auto;
+}
+
+div.img7{
+    position: relative;
+    height: auto;
+    top: 200px;
+    left: -150px;
+    z-index: 10px;
 }
 
 div.width100{
