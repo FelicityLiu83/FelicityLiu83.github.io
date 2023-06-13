@@ -125,7 +125,7 @@ div.hometext3{
 
 div.img{
     width: auto;
-    height: 480px;
+    display: block;
 
     position: sticky;
     top: 0px;
